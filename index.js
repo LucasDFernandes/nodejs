@@ -1,7 +1,6 @@
-const express = require('express')
+const customExpress = require('./config/customExpress')
 
-const app = new express()
-
+// Cria o servidor customoizado
+const app = customExpress()
+// Starta servidor
 app.listen(3000, () => console.log('servidor rodando!'))
-
-app.get('/atendimentos', (req, res) => res.send('você está na rota de atendimentos'))
