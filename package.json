@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Projeto de Exemplo NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasDFernandes/nodejs.git"
+  },
+  "author": "lucas fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasDFernandes/nodejs/issues"
+  },
+  "homepage": "https://github.com/LucasDFernandes/nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
