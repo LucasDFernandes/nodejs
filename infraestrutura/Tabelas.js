@@ -9,7 +9,7 @@ class Tabelas {
     criaAtendimento() {
         const sql = `CREATE TABLE IF NOT EXISTS agenda_petshop.Atendimentos (
                         id INT NOT NULL AUTO_INCREMENT,
-                        cliente varchar(50) NOT NULL,
+                        cliente varchar(11) NOT NULL,
                         pet varchar(20),
                         servico varchar(20) NOT NULL,
                         data DATETIME NOT NULL,
