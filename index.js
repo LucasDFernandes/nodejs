@@ -1,6 +1,6 @@
 const customExpress = require('./config/customExpress')
-const conexao = require('./infraestrutura/conexao')
-const Tabelas = require('./infraestrutura/Tabelas')
+const conexao = require('./infraestrutura/database/conexao')
+const Tabelas = require('./infraestrutura/database/Tabelas')
 
 /**
  * Caso a conexão com a base de dados tenha algum erro, o servidor não irá subir
